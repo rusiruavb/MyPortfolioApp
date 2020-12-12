@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "project_name": "Book Publishing System",
+      "giturl": "https://github.com/rusiruavb/ApuruBookApp-Final.git",
+      "appurl": "https://apurubook-frontend.web.app/",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/apuru_book_app.png?alt=media&token=019efd0b-cf1f-4e30-9df4-289bafcf873d",
+      "technologies": ["React JS", "Node JS", "MongoDB", "Express", "Bootstrap", "Firebase"],
+      "description": "Implemented a fully functional web application for ApuruBook Publishers Kurunagala for our ITP module in the second year. Earlier then this publishing company does not have any online method to publish their products. Our ultimate goal was to automate the whole publishing process through this application. Therefore, we implement essential functions such as product inventory and wholesale management, delivery and distribution management, general information management, product purchase management and product overview and feedback session management.",
+      "developed": true
+    },
+    {
+      "project_name": "Online Banking Application",
+      "giturl": "https://github.com/rusiruavb/Online-Banking-System.git",
+      "appurl": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/banking_app.png?alt=media&token=151db148-3a47-4d4d-964c-6ff5d85b66bf",
+      "technologies": ["JAVA", "JSP", "Bootstrap", "MySQL"],
+      "description": "I have created an online banking system using JSP and Servlet which are based on JAVA language. With using this banking system customers can do their banking operation without going to the bank physically. In this system, I have implement essential banking operations such as online bill payment, request bank loan, apply for a credit card and online money transfer. All these operations are monitoring via bank manager. To do that I have created the bank manager dashboard in this system. By using this dashboard, the bank manager can easily communicate with their customers and in addition to that manager can observe all money transactions.",
+      "developed": true
+    },
+    {
+      "project_name": "Weather Application",
+      "giturl": "https://github.com/rusiruavb/weather-app-node.git",
+      "appurl": "https://ravb-weather-app.herokuapp.com/",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/weather_app.png?alt=media&token=419b0adf-03f7-4c27-a8f1-17e53e210dbf",
+      "technologies": ["Node JS", "Bootstrap"],
+      "description": "I have created an online weather application using Node JS and Weatherstack API. By using this app users can search for any location in the world and see what is the weather in that location.",
+      "developed": true
+    },
+    {
+      "project_name": "Real Time Chat Application",
+      "giturl": "https://github.com/rusiruavb/superchat.git",
+      "appurl": "https://superchat-a980c.web.app/",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/super_chat.png?alt=media&token=394e7bd3-8fad-4f13-8ab4-1449956c267d",
+      "technologies": ["React JS", "Firebase"],
+      "description": "I implement a real-time chat application using React JS and firebase. In this application users can easily join to the chat room using google authentication. Unlike Socket.io users' chat history was securely stored in the firebase firestore. So when user login again the previous chat history was not deleted.",
+      "developed": true
+    },
+    {
+      "project_name": "Online Learning Management System",
+      "giturl": "shorturl.at/gqwAY",
+      "appurl": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/learning_management_system.png?alt=media&token=0608c52b-f84f-4dec-85a3-f66d45b9d7bb",
+      "technologies": ["React JS", "Node JS", "MongoDB", "Bootstrap"],
+      "description": "Me and my friend implementing online learning management system. By using this application teachers can deliver their content through this platform. And students can watch and get the learning material with using this system.",
+      "developed": false
+    }
+  ]
+}
