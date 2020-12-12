@@ -6,6 +6,7 @@ import Service from './components/Services';
 import Education from './components/Education';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Contact from './components/Contanct';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Education/>
       <Skills/>
       <Projects/>
+      <Contact/>
     </div>
   );
 }

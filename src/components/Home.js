@@ -3,6 +3,7 @@ import '../App.css'
 import AOS from 'aos'
 import anime from 'animejs'
 import 'aos/dist/aos.css'
+import {Link} from 'react-scroll'
 
 // material ui icons
 import Facebook from '@material-ui/icons/Facebook';
@@ -54,6 +55,12 @@ export default function AboutMe() {
       document.body.removeChild(script)
     }
   }, [])
+
+  const navToContact = () => {
+    return (
+      <Link to="contact"/>
+    )
+  }
 
   return (
     <section id="home" className="home-section container">
@@ -146,9 +153,12 @@ export default function AboutMe() {
                 borderRadius: '10px',
                 marginTop: '10px'
               }}
+              onClick={(e) => navToContact()}
               disableElevation
             >
+              <Link to="contact" smooth={true}>
               Click here to Hire Me
+              </Link>
             </Button>
           </div>
           </div>

@@ -154,13 +154,10 @@ export default function Header() {
             <Link className={`nav-link ${projectActive}`} to="projects" onClick={ProjectActive} smooth={true} >Projects</Link>
           </li>
           <li className="nav-item">
-            <a className={`nav-link ${galleryActive}`} href="#" onClick={GalleryActive} >Gallery</a>
+            <Link className={`nav-link ${contactActive}`} to="contact" onClick={ContactActive} smooth={true} >Contact</Link>
           </li>
           <li className="nav-item">
-            <a className={`nav-link ${blogActive}`} href="#" onClick={BlogActive} >Bolgs</a>
-          </li>
-          <li className="nav-item">
-            <a className={`nav-link ${contactActive}`} href="#" onClick={ContactActive} >Contact</a>
+            <a className={`nav-link ${blogActive}`} href="https://medium.com/me/stories/public" target="_blank" onClick={BlogActive} >Bolgs</a>
           </li>
         </ul>
       </div>

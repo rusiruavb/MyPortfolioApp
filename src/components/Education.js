@@ -8,7 +8,7 @@ export default function Education() {
       <div className="education-detail-section text-white">
         <h1 className="title-education">Education</h1>
         <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-6 d-flex justify-content-center">
+          <div className="col-lg-6 col-md-6 col-sm-6 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="500">
             <div className="education-card">
               <div className="card-body">
                 <img src={school} alt="school image" className="education-image" />
@@ -19,7 +19,7 @@ export default function Education() {
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-6 d-flex justify-content-center">
-            <div className="education-card">
+            <div className="education-card" data-aos="fade-up" data-aos-duration="500">
               <div className="card-body">
                 <img src={university} alt="school image" className="education-image" />
                 <h1 className="education-title">Higher Education</h1>

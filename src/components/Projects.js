@@ -2,8 +2,6 @@ import React from 'react';
 import ProjectsJson from '../projects.json'
 
 export default function Projects() {
-
-
   return (
     <section id="projects" className="container project-section">
       <div className="project-detail-section text-white">
