@@ -11,7 +11,7 @@ export default function Projects() {
             <div className="project-card" data-aos="fade-up" data-aos-duration="500">
               <div className="card-body">
                 <div className="row">
-                  <div className="col-lg-4 col-sm-12">
+                  <div className="col-lg-4 col-md-6 col-sm-12">
                     <img src={item.image} alt={item.project_name} className="project-image" />
                   </div>
                   <div className="col-lg-8 col-sm-12">

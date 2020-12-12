@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "project_name": "Book Publishing System",
+      "project_name": "Publishing Management System",
       "giturl": "https://github.com/rusiruavb/ApuruBookApp-Final.git",
       "appurl": "https://apurubook-frontend.web.app/",
       "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/apuru_book_app.png?alt=media&token=019efd0b-cf1f-4e30-9df4-289bafcf873d",

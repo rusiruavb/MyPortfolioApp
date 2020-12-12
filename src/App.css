@@ -94,6 +94,14 @@ nav ul li a {
   border-radius: 10px;
 }
 
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #1177e4;
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25);
+}
+
 .btn {
   background: #1f2833;
   color: #ffffff;
@@ -189,8 +197,8 @@ nav ul li a {
   }
   .education-detail-section {
     padding-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
   .education-card {
     margin-top: 2%;
@@ -200,7 +208,7 @@ nav ul li a {
     text-align: center;
     border-radius: 10px;
     width: 350px;
-    height: 460px;
+    height: fit-content;
     color: #ffffff;
     box-shadow: 0px 0px 0px grey;
     -webkit-transition: box-shadow 0.6s ease-out;
@@ -236,8 +244,8 @@ nav ul li a {
   }
   .skill-detail-section {
     padding-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
   .title-skills {
     font-family: "Blinker";
@@ -266,7 +274,7 @@ nav ul li a {
   }
   .title-project {
     font-size: 60px;
-    margin-left: 10%;
+    margin-left: 0%;
     font-family: "Blinker";
     font-weight: 700;
     padding-top: 5px;
@@ -447,6 +455,50 @@ nav ul li a {
     width: 70px;
     height: 70px;
   }
+  .project-section {
+    min-height: 3330px;
+    background: #1f2833;
+  }
+  .title-project {
+    font-size: 60px;
+    margin-left: 10%;
+    font-family: "Blinker";
+    font-weight: 700;
+    padding-top: 5px;
+  }
+  .project-detail-section {
+    padding-top: 3%;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+  .project-image {
+    width: 630px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+  }
+  .project-card {
+    margin: 10px;
+    font-family: "Blinker";
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
+    color: #ffffff;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: box-shadow 0.6s ease-out;
+    box-shadow: 1px 1px 4px 0.3px rgb(26, 20, 20);
+  }
+  .custom-form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .title-contact {
+    font-size: 60px;
+    font-family: "Blinker";
+    font-weight: 700;
+    padding-top: 5px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -595,6 +647,50 @@ nav ul li a {
   .skill-image {
     width: 100px;
     height: 100px;
+  }
+  .project-section {
+    min-height: 3300px;
+    background: #1f2833;
+  }
+  .title-project {
+    font-size: 60px;
+    margin-left: 10%;
+    font-family: "Blinker";
+    font-weight: 700;
+    padding-top: 5px;
+  }
+  .project-detail-section {
+    padding-top: 3%;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+  .project-image {
+    width: 650px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+  }
+  .project-card {
+    margin: 10px;
+    font-family: "Blinker";
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
+    color: #ffffff;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: box-shadow 0.6s ease-out;
+    box-shadow: 1px 1px 4px 0.3px rgb(26, 20, 20);
+  }
+  .custom-form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .title-contact {
+    font-size: 60px;
+    font-family: "Blinker";
+    font-weight: 700;
+    padding-top: 5px;
   }
 }
 
