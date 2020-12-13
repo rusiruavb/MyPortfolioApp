@@ -1,0 +1,18 @@
+{
+  "education": [
+    {
+      "title": "Primay & Secondary Education",
+      "school": "Royal College Panadura",
+      "description": "Advanced Levle - Biological Stream",
+      "gpa": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/education%20icons%2Fschool.png?alt=media&token=4d056283-61dd-4451-9c41-010ecdc6cf4f"
+    },
+    {
+      "title": "Higher Education",
+      "school": "Sri Lanka Institute of Information Technology",
+      "description": "Specialization - Software Engineering",
+      "gpa": "Grade Point Average (GPA) : 3.4",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-2b348.appspot.com/o/education%20icons%2Funiversity.png?alt=media&token=c22204f2-7b19-4bad-a289-11c13f8dd1b9"
+    }
+  ]
+}

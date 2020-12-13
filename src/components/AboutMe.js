@@ -15,7 +15,7 @@ export default function AboutMe() {
       <div className="aboutme-detail-section text-white" data-aos-offset="500">
         <h1 className="title-aboutme">About Me</h1>
         <p className="aboutme-text text-justify">
-          Hello, I'm Rusiru Abhisheak Vikum Bandara and I am Software Engineering undergraduate at Sri Lanka Institute of Information Technology (SLIIT).
+          Hello, I'm Rusiru Abhisheak Vikum Bandara and I am a Software Engineering undergraduate at Sri Lanka Institute of Information Technology (SLIIT).
           Interested in web application development using latest web technologies and frameworks, mobile application development and data strutures
           and algorithms. I'm also passionate about learn new things quickly, build new products by appling software engineering concepts and hunger to
           work with cutting-edge technologies.</p>
